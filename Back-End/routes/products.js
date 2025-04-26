@@ -21,7 +21,6 @@ router.get('/', (req, res) => {
 // Defining a POST (http method) to add a new product
 router.post('/', (req, res)=>{
     const { name, description, category, price, seller_id } = req.body;
-
     const sql = `
         INSERT INTO products (name, description, category, price, seller_id)
         VALUES(?, ?, ?, ?, ?)
