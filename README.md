@@ -119,6 +119,8 @@ User can create a new account or can log in if he already has an account
 Once logged in user can view its information as well as the products he added to sell and can remove it 
 User can also disconnect from his account
 
+To run the database, you need to type in the terminal "npm run dev" in order to access to all the functionalities 
+
 View Cart Page:
 
 User can view its own cart and can interact by removing items from its cart or checkout all of his items
