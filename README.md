@@ -111,11 +111,12 @@ Catalogue Page:
 Contains all the available products with its name, description, price and who is selling it
 Need to be logged in in order to interact with the products
 Once logged in user has the possibility to create sell order through button "Add sell order"
+Admin user can remove users' sell order 
 
 Profile Page:
 
 User can create a new account or can log in if he already has an account
-Once logged in user can view its information as well as the products he added to sell it
+Once logged in user can view its information as well as the products he added to sell and can remove it 
 User can also disconnect from his account
 
 View Cart Page:
