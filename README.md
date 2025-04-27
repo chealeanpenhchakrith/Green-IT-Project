@@ -96,3 +96,34 @@ git merge upstream/main
 
 ## 📄 License
 This project is created for academic and educational purposes.
+
+---
+
+## Description of different parts of the website and the functionalities 
+
+Home Page:
+
+Description of the goal of the website, and its purpose
+A link at the bottom of the page towards the Login/Signup page
+
+Catalogue Page:
+
+Contains all the available products with its name, description, price and who is selling it
+Need to be logged in in order to interact with the products
+Once logged in user has the possibility to create sell order through button "Add sell order"
+Admin user can remove users' sell order 
+
+Profile Page:
+
+User can create a new account or can log in if he already has an account
+Once logged in user can view its information as well as the products he added to sell and can remove it 
+User can also disconnect from his account
+
+View Cart Page:
+
+User can view its own cart and can interact by removing items from its cart or checkout all of his items
+
+Add Sell Order Page:
+
+User can create new sell order by adding the product's name, description, category, price and the quantity available
+Once it is added or canceled, the page returns the user to the Catalogue Page
