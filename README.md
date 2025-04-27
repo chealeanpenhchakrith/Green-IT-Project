@@ -92,6 +92,12 @@ git merge upstream/main
 
 👤 Maintainer: @chealeanpenhchakrith
 
+Members : 
+Leanpenhchakrith CHEA
+William LY 
+Lina IMARRAINE
+Hawa AJROUD
+Ting-Hsuan LIAO
 ---
 
 ## 📄 License
