@@ -130,3 +130,5 @@ Once it is added or canceled, the page returns the user to the Catalogue Page
 
 
 To run the database, you need to type in the terminal "npm run dev" in order to access to all the functionalities 
+
+Link to the deploy website : https://blue-fly-162040.hostingersite.com/catalogue.html https://eco-backend-4wrt.onrender.com/
