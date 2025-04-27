@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (cartLink) {
             cartLink.style.display = 'inline-block';
         }
+        const addSellOrderBtn = document.getElementById('addSellOrderBtn');
+        if (addSellOrderBtn) {
+            addSellOrderBtn.style.display = 'inline-block';
+        }
     }
 
     // Get the product list container from the DOM
