@@ -1,141 +1,64 @@
-# 🌿 Green IT Project
+# 🌿 EcoBazaar 
 
-Welcome to the **GreenIT-Project** – an academic initiative developed as part of the Green IT program at **EFREI**.  
-Let's build a more sustainable web, one commit at a time. 💚
+**EcoBazaar** is a sustainable e-commerce platform built, it promotes eco-friendly practices through second-hand, recycled, and low-impact products. ♻️
 
-> 📍 GitHub Repo: [chealeanpenhchakrith/Green-IT-Project](https://github.com/chealeanpenhchakrith/Green-IT-Project)
+> 🌐 Deployed at:  
+> [Frontend](https://blue-fly-162040.hostingersite.com/catalogue.html) | [Backend API](https://eco-backend-4wrt.onrender.com/)
 
 ---
 
 ## 🎯 Project Objective
 
-🚀 **Goal**: Design, implement, and analyze the **carbon footprint** of a website.  
-🌎 **Mission**: Build an environmentally friendly site with minimal impact on the planet.  
-🌱 **Focus**: Energy efficiency, clean design, and sustainable development.
+**Goal**: Build an eco-conscious online store from scratch.  
+**Mission**: Encourage sustainable consumption through a minimalist, low-impact digital experience.  
+**Focus**: Accessibility, energy efficiency, and carbon-aware development.
 
 ---
 
-## 📦 About the Project
+## 🧩 Core Features
 
-This project is part of the **Green IT coursework** at EFREI.  
-We aim to apply sustainable web development practices and evaluate the environmental impact of common design and coding choices.
+### 🏠 Home Page
+- Overview of the project’s purpose and sustainability goals
+- Link to the login/signup page
+
+### 🛍 Catalogue
+- Displays all available products (name, price, seller, description)
+- Requires login to interact (add to cart, post a sell order)
+- Admin can remove sell orders
+
+### 👤 Profile Page
+- Login or register a new account
+- View personal details and items listed
+- Delete personal listings or logout
+
+### 🛒 Cart Page
+- View items added to cart
+- Remove items or proceed to checkout
+
+### ➕ Add Sell Order
+- Add product details: name, price, category, quantity
+- Submit or cancel to return to catalogue
+
+---
+
+## 🛠 Technologies Used
+
+- ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+- ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat&logo=express&logoColor=white)
+- ![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ---
 
 ## 🔧 Getting Started
 
-If you’re contributing to this project, follow these steps to get started locally.
-
----
-
-### 🪝 Step 1 – Fork the Repository
-
-Head over to the original repo and click **"Fork"** (top right):
-
-👉 [https://github.com/chealeanpenhchakrith/Green-IT-Project](https://github.com/chealeanpenhchakrith/Green-IT-Project)
-
----
-
-### 💻 Step 2 – Clone Your Fork
-
-Open your terminal and run:
+To run the project locally:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Green-IT-Project.git
+git clone https://github.com/chealeanpenhchakrith/EcoBazaar.git
 cd Green-IT-Project
-```
-
-## ⚠️ Replace YOUR_USERNAME with your actual GitHub username ⚠️
-
----
-
-### 🔌 Step 3 – Set Upstream to Sync with the Original Repo
-
-Your fork won’t automatically receive updates from the original project. To keep your fork up to date:
-
-Add the original repo as an upstream remote (only once):
-
-```bash
-git remote add upstream https://github.com/chealeanpenhchakrith/Green-IT-Project.git
-```
-
-🔍 Verify your remotes (optional):
-
-```bash
-git remote -v
-```
-
-You should see something like :
-
-```bash
-origin    https://github.com/YOUR_USERNAME/Green-IT-Project.git (fetch)
-upstream  https://github.com/chealeanpenhchakrith/Green-IT-Project.git (fetch)
-```
-
-📥 Sync your fork with the latest changes from upstream :
-
-```bash
-git fetch upstream
-git checkout main
-git merge upstream/main
-```
-
-✅ Now your local fork is up to date with the original repository!
-
----
-
-## 🏫 Project Info
-
-🎓 Institution: EFREI
-
-🌱 Theme: Green IT / Sustainable Web Development
-
-👤 Maintainer: @chealeanpenhchakrith
-
-Members : 
-Leanpenhchakrith CHEA
-William LY 
-Lina IMARRAINE
-Hawa AJROUD
-Ting-Hsuan LIAO
-
----
-
-## 📄 License
-This project is created for academic and educational purposes.
-
----
-
-## Description of different parts of the website and the functionalities 
-
-Home Page:
-
-Description of the goal of the website, and its purpose
-A link at the bottom of the page towards the Login/Signup page
-
-Catalogue Page:
-
-Contains all the available products with its name, description, price and who is selling it
-Need to be logged in in order to interact with the products
-Once logged in user has the possibility to create sell order through button "Add sell order"
-Admin user can remove users' sell order 
-
-Profile Page:
-
-User can create a new account or can log in if he already has an account
-Once logged in user can view its information as well as the products he added to sell and can remove it 
-User can also disconnect from his account
-
-View Cart Page:
-
-User can view its own cart and can interact by removing items from its cart or checkout all of his items
-
-Add Sell Order Page:
-
-User can create new sell order by adding the product's name, description, category, price and the quantity available
-Once it is added or canceled, the page returns the user to the Catalogue Page
-
-
-To run the database, you need to type in the terminal "npm run dev" in order to access to all the functionalities 
-
-Link to the deploy website : https://blue-fly-162040.hostingersite.com/catalogue.html https://eco-backend-4wrt.onrender.com/
+npm install
+npm run dev
+Open catalogue.html in your browser
